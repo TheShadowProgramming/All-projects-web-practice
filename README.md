@@ -1,6 +1,6 @@
 ## Node.js Assignments
 
-[files from "files" directory are kind of acting like a database, "App" directory contains the todo app's server]
+[files from "files" directory are kind of acting like a database, "App" directory contains the todo app's server,"node modules" directory contains libraries and other testing libraries from assignment which I'll use in future to write tests for the code]
 
 In this repo, I've listed down my todo app's backend which consists of these features :-
 
