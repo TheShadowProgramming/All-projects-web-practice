@@ -115,7 +115,7 @@ app.get("/login", (req, res) => {
   }
 });
 
-// function to verify old users and generate jwt for them
+// middleware getting used in the further below routes to verify old users and generate jwt for them
 app.use(authUsingJWT);
 
 // routes handling users and their todos by using username, password attribute
@@ -156,7 +156,7 @@ const postSchema = z.object({
   description: z.string(),
 });
 app.post(`/todos`, (req, res) => {
-  const parsedBody = postSchema.safeParse(req.body);
+  const parsedBody = postSchema.safeParse(req.body["todo"]);
   if (parsedBody.success) {
     parsedBody.data.Id = randomIdGenerator();
     let importData = importDataFunction();
@@ -173,17 +173,16 @@ const putSchema = z.object({
   password: z.string(),
   title: z.string(),
   completed: z.boolean(),
+  Id: z.string(),
 });
-app.put("/todos/:id", (req, res) => {
-  const putParsedBody = putSchema.safeParse(req.body);
+app.put("/todos", (req, res) => {
+  const putParsedBody = putSchema.safeParse(req.body["todo"]);
   if (putParsedBody.success) {
-    let IdNo = req.params.id;
+    let IdNo = req.body["todo"]["Id"];
     let importData = importDataFunction();
     let TodoIndex = findTodoIndex(importData, IdNo);
     if (TodoIndex) {
-      let oldId = importData.data[TodoIndex].Id;
       importData.data[TodoIndex] = putParsedBody.data;
-      importData.data[TodoIndex].Id = oldId;
       exportDataFunction(importData);
       res.status(200).json({ msg: "Todo Updated" });
     } else {
@@ -201,7 +200,11 @@ app.delete("/todos/:id", (req, res) => {
   const importData = importDataFunction();
   const todoIndex = findTodoIndex(importData, IdNo);
   if (todoIndex) {
-    importData.data.splice(todoIndex, todoIndex);
+    importData.data = importData.data.filter((todo) => {
+      if (!(todo.Id == IdNo)) {
+        return true;
+      }
+    });
     exportDataFunction(importData);
     res.status(200).json({ msg: "Todo Deleted" });
   } else {
@@ -211,6 +214,7 @@ app.delete("/todos/:id", (req, res) => {
   }
 });
 
+// global catch to deal with uncertain errors
 app.use((err, req, res, next) => {
   console.log(err);
   res.status(500).json({ msg: "Internal Server Error" });

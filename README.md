@@ -1,21 +1,21 @@
 ## Node.js Assignments
-In this series of assignments, you are going to create native HTTP servers in Node.js which will handle different kinds of application logics.
 
-You are provided empty JavaScript files (or having function signatures) in this directory. You have to follow the instructions given in each file and then run automated tests (also mentioned in each file) to check if you have successfully completed the assignment or you still have few more things to learn in it 😜
+[files from "files" directory are kind of acting like a database, "App" directory contains the todo app's server]
 
-### Assignments
-Recommended order of attempting the assignments.
-1. Todo List App
-2. File Server
+In this repo, I've listed down my todo app's backend which consists of these features :-
 
-#### Important Notes
-1. If you are unable to understand the request/response of any assignment file or whatever the way it is being tested, you can take a look at its respective test file present in `tests/` directory.
-2. Don't try to make any changes to the test files present in the `tests/` directory.
-3. Don't make any changes to the code already present in files including function/method/class signatures and module exports.
-4. To run individual tests - 
- - npm run test-fileServer
- - npm run test-todoServer
+- backend is built in javascript using node.js and express.js library
+- global catches and several try-catch blocks for security
+- I've included zod library for input validation
+- I'm using jwt bearer token for authentication using middleware functions
 
-#### Development Setup
-1. Install the dependencies used by running `npm install` command in your terminal.
-2. We used `18.x.y` Node.js version, if anything doesn't work then please consider upgrading your node installation.
+### Future add-ons
+
+- I'm learning Mongo.DB it'll be my noSQL database for the project, once I learn mongo.DB then I'll make a new app altogether since I want to make sure that this version of the app is visible to me where I'm storing the data in JSON file (I want something to feel nostalgic about when reviewing the code after 5-10 years)
+- I'm learning react and will make a frontend of app
+- data from the backend will be fetched using axios library
+- tailwind CSS will be used to style the website
+
+### that would be it and this will become my first MERN app, though the idea to choose a todo app as your first portfolio project seems stupid but I think the way I write code matters more than what I'm coding, I'll try my best to learn about the best industrial practices and include them here in the project and make my code more readable, collaborative, and ready for production
+
+#### Thank for reading this readme file

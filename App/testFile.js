@@ -1,3 +1,9 @@
+/*
+
+I test small blocks of code here from the big project, pretty basic way to debug though but yea learning more stuff to debug
+
+*/
+
 const fs = require("fs");
 const z = require("zod");
 
