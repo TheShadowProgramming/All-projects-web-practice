@@ -1,5 +1,6 @@
 // global variables storing libraries used
 const express = require("express");
+const bodyParser = require("body-parser");
 const z = require("zod");
 const fs = require("fs");
 const app = express();
@@ -62,6 +63,7 @@ function authUsingJWT(req, res, next) {
 }
 
 app.use(express.json());
+app.use(bodyParser.json());
 // function to generate jwt for new users
 app.get("/signup", (req, res) => {
   let importData = importDataFunction();
