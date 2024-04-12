@@ -26,6 +26,11 @@
     color: #666666;
     margin: 25px;
     padding: 5px;
+    cursor: pointer;
+}
+
+.links:hover {
+    color: #387ed1
 }
 
 /*********************************************************************/
@@ -69,6 +74,11 @@
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 25px;
+    cursor: pointer;
+}
+
+#SignUp-button:hover {
+    background-color: #084289;
 }
 
 /******************************************************************/
