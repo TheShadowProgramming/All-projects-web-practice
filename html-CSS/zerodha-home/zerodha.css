@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family:sans-serif;
+}
+
+.container {
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    box-shadow: 2px 1px 2px #eee;
+}
+
+#picture {
+    height: 17.5px;
+    width: 120px;
+}
+
+.link {
+    float: right;
+}
+
+.links {
+    color: #666666;
+    margin: 25px;
+    padding: 5px;
+}
+
+/*********************************************************************/
+
+.landing-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-image {
+    margin-top: 150px;
+    height: 320px;
+    width: 800px;
+}
+
+.heading-wrapper {
+    margin: 20px;
+}
+
+.heading-group {
+    margin: 10px;
+    color: #424242;
+}
+
+#lower-line {
+    font-weight: 200;
+}
+
+.signup-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#SignUp-button {
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #387ed1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 25px;
+}
+
+/******************************************************************/
+
+#third-part {
+    padding: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #424242;
+}
+
+#trophy {
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 300px;
+    width: 400px;
+}
+
+.trophy-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.marketing-content {
+    margin: 25px;
+    margin-left: 40px;
+    padding: 5px;
+}
+
+#lists-wrapper {
+    font-size: small;
+    margin-left: 40px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
