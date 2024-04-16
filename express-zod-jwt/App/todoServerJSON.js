@@ -5,6 +5,8 @@ const z = require("zod");
 const fs = require("fs");
 const app = express();
 const jwt = require("jsonwebtoken");
+const { switchCase } = require("@babel/types");
+const { number } = require("yargs");
 const secretKey = "monish";
 
 // functions used to follow DRY principle

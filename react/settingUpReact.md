@@ -1,0 +1,1 @@
+- creating react apps is generally done with vite bundlers which are less bulky when compared to npx [react-dom for web, react-native for app-dev]
