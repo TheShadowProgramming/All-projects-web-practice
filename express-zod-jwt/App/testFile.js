@@ -72,4 +72,4 @@ for (const key in myObj) {
   console.log(key) // this won't throw an error but it can misbehave since this loop inherits properties from its proto-type
 }
 
-// this is the same test command due to which all the matter started
+// this is the same test command due to which all the matter started  
