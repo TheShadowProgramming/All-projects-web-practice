@@ -1,0 +1,22 @@
+/*
+we use utility classes to follow DRY principle, instead of adding these properties everywhere we can give these classes to different elements in our project 
+*/
+
+.box-layout {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    margin: 4px;
+    padding: 6px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
