@@ -48,26 +48,30 @@ I test small blocks of code here from the big project, pretty basic way to debug
 //
 const map = new Map();
 
-map.set("name", "Monish")
-map.set("age", "21")
-map.set("sex", "male")
+map.set("name", "Monish");
+map.set("age", "21");
+map.set("sex", "male");
 
 const myObj = {
-  "name":"Monish",
-  "age":21,
-  "sex":"Male"
-}
+  name: "Monish",
+  age: 21,
+  sex: "Male",
+};
 
-// iterating over objects and maps 
+// iterating over objects and maps
 
 for (const [key, value] of map) {
-  console.log(`the key of the map object is ${key} and the value of the map object is ${value}`)
+  console.log(
+    `the key of the map object is ${key} and the value of the map object is ${value}`
+  );
 }
 
 for (const key of myObj) {
-  console.log(key) // this would throw an error
+  console.log(key); // this would throw an error
 }
 
 for (const key in myObj) {
-  console.log(key) // this won't throw an error but it can misbehave since this loop inherits properties from its proto-type
+  console.log(key); // this won't throw an error but it can misbehave since this loop inherits properties from its proto-type
 }
+
+// this is test command to see what happens
