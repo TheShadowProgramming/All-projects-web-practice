@@ -1,13 +1,8 @@
-const divStyle = {
-    color: "red",
-    border: "2px solid red"
-}
-
 function Component() {
     return (
         <>
-        <div style={divStyle}>
-
+        <div>
+            this is a experimental div
         </div>
         </>
     )
