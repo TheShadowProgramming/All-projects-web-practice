@@ -16,5 +16,10 @@ function reactRender(reactElement, mainContainer) {
   for (const prop in reactElement.props) {
     newElement.setAttribute(prop, reactElement.props[prop]);
   }
+  /* 
+  interesting thing to notice here is that "for in" loop in javascript
+  is working on Object's keys, and we don't need to create a seperate
+  array for the Object's keys using Object.keys() method
+  */
   mainContainer.appendChild(newElement);
 }
