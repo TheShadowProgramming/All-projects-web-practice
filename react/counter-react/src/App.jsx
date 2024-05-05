@@ -21,3 +21,5 @@ export default App
 // app.jsx se we import the functions in the main.jsx and uske andar hi we use the .render syntax
 // jsx functions are called when we use the / operator after the name of the function inside the 
 // in order to return html using the jsx syntax, <> and </> is used inside the return function
+// babel works under the hood of react and converts all the modern jsx syntax into vanilla js
+// and this helps in making sure that the old browsers using old versions of js are able to render pages written with newer jsx syntax
