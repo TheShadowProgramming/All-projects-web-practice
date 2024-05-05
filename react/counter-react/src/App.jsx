@@ -23,3 +23,4 @@ export default App
 // in order to return html using the jsx syntax, <> and </> is used inside the return function
 // babel works under the hood of react and converts all the modern jsx syntax into vanilla js
 // and this helps in making sure that the old browsers using old versions of js are able to render pages written with newer jsx syntax
+// 
