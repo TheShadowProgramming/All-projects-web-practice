@@ -224,3 +224,5 @@ app.use((err, req, res, next) => {
 
 app.listen(4500);
 module.exports = app;
+
+// Debouncing is limiting time-consuming tasks to fire
