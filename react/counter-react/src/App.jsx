@@ -71,3 +71,11 @@ export default App
 // we can't write logic in 
 // babel works under the hood and converts all the modern js syntax into vanilla js 
 // in order to support jsx syntax in old browsers and all types of browsers
+// hooks are special functions which helps us to update the variables (basically state)
+// useState returns one variable and a function to manipulate that variable in an array
+// the inputs passed in the hook are initialized to the variable, and if we want to update the variable
+// then we call that function again with another input, which will be reflected everywhere
+// react fiber algo does incremental rendering under the hood,
+// it does 3-4 things :- a. prioritizes some operations over the other like updating animations more frequently than updating the cart 
+// b. aborts certain updating operations when necessary like har update of the DOM pe react doesn't changes it, it waits for a certain number of time/operations
+// React fiber also under the hood performs all the operations related to diffing between all the versions of Virtual DOM objects
