@@ -1,0 +1,64 @@
+/* included this file to learn some more insights of CSS */
+
+* {
+    margin: 0px; /* this asterisk selector overRides all the existing shit that browser has applied, and not the style that we'll apply */
+}
+
+body {
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #08609b; /* using hex code values makes more sense instead of using names of colors since every browser has different versions of that named color therefore using hex code is more stable when it comes to consistency */
+}
+
+/* also one more thing to understand is that without content inside an element, its background color won't work */
+/* rgb colours me, first number represents red, 2nd green and 3rd blue, lower the value lighter the shade of the color */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline; /* this property brings the div in vertical center */
+    padding-left: 5%; /* this property adjusts the padding according to the size of the div */
+    padding-right: 5%;
+}
+
+#centerDivNavbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.centerElements {
+    margin: 2%;
+}
+
+.rightDivWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 6%;
+}
+
+/***************************************************************************************************/
+
+#landingContentWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#landingContent {
+    background-image: url(./images/pixelcut-export-removebg.png);
+    background-repeat: no-repeat; /* this property helps is not repeating the bg images, x-axis and y-axis */
+    background-position: center; /* background image div ke ekdum center me aayega */
+    background-size: cover; /* background image resize hojaaye to cover the entire div */
+
+    display: flex;
+    justify-content: left;
+
+
+    margin: 10%;
+
+    width: 60vw; /* vw means viewport ka width, and 50 means ki 50% viewport dikhega width me */
+    height: 50vh; 
+}
+
+.heading {
+    font-size: 50px;
+}

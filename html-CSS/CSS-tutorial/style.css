@@ -1,0 +1,21 @@
+/* colors.co/colors.so has color palletes which are colors blending with each other very proficiently and thus we can use these colors for our website */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* alag alag fonts alag-alag browsers ke liye hai, ek nahi chala kisi me to dusra use ho jaayega */
+}
+
+#hover {
+    text-align: right; /* basically flexbox of text, divs ko align karne ke liye flexbox and text ke liye text-align */
+    line-height: 50px; /* property used for creating space between lines of a text shit */
+    border: dotted; /* there are other options too like solid and dashed */
+}
+
+#hover:hover {
+    text-decoration: line-through; /* aur bhi values hai jaise underline, useful property for hovering over buttons */
+    /* Another use-case of this is when we want to remove the underlines from links and anchor tags */
+}
+
+#hover:active { /* psuedo class for clicking the button/ tapping the button */
+    display: none; /* property for hiding the inner text of the element */
+}
+
+/* testing how to deal with merge conflicts */
