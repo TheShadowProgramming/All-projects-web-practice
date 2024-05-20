@@ -1,6 +1,8 @@
 /* colors.co/colors.so has color palletes which are colors blending with each other very proficiently and thus we can use these colors for our website */
 body {
     font-family: Arial, Helvetica, sans-serif; /* alag alag fonts alag-alag browsers ke liye hai, ek nahi chala kisi me to dusra use ho jaayega */
+    padding: none; /* padding: 2px 4px 5px 6px */
+    margin: none;
 }
 
 #hover {
@@ -18,3 +20,29 @@ body {
     display: none; /* property for hiding the inner text of the element */
 }
 
+/*  Utility classes  */
+
+.flex {
+    display: flex;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly; /* for aligning text in center, just use p tag to write the text and then use those classes like flex and justify content and align items in center */
+    align-items: center;
+}
+
+.outerWrapper {
+    padding: 5%;
+    margin: 5%;
+}
+
+/*   main Classess   */
+
+#circle-div {
+    background-color: #212121;
+    color: #ffffff;
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(188, 210, 238);
+    border-radius: 50%; /* takes 50% border-radius and since this is a square div, therefore the div will look like a circle since we've radius half of diameter */
+}
