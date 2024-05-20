@@ -1,0 +1,81 @@
+ * {
+    background-color: #212121;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    padding: none;
+    margin: none;
+ }
+
+ /* utility classes */
+ .flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .flex-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .buttons {
+    border-radius: 3px;
+ }
+
+ .buttons:hover {
+    background-color: #ffffff;
+ }
+
+ .buttons:focus {
+    background-color: #ffffff;
+    outline: nones;
+ }
+
+
+ /* navbar */
+
+ #navbar {
+    background-color: #314B6A;
+    height: 8vh;
+ }
+
+ #left-wrapper {
+    width: 25%;
+    background-color: #314B6A;
+ }
+
+ #DEV-button {
+    border: solid 2px #212121;
+    font-weight: 700;
+    color: #212121;
+    background-color: #ffffff;
+    padding: 2% 2% 2% 2%;
+ }
+
+ #search-button {
+    height: 70%;
+    background-color: #AEC5EB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 2px #808080;
+    padding: 1.5% 2% 1.5% 2%;
+    cursor: pointer;
+    transition: all 0.3s ease;  /* Helps in changing the CSS properties when we hover or click the input tag or any other tag with ease and with a delay of 0.3s */
+ }
+
+ #right-wrapper {
+    width: 25%;
+    height: 50%;
+    background-color: #314B6A;
+ }
+
+ #write-post {
+    width: 40%;
+    background-color: #6470DF;
+    color: #212121;
+ }
+
+ .emoji {
+    background-color: #314B6A;
+ }
+
