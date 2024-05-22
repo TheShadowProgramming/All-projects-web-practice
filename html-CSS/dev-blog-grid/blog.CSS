@@ -19,21 +19,7 @@
     align-items: center;
  }
 
- .buttons {
-    border-radius: 3px;
- }
-
- .buttons:hover {
-    background-color: #ffffff;
- }
-
- .buttons:focus {
-    background-color: #ffffff;
-    outline: nones;
- }
-
-
- /* navbar */
+ /****************************************************** navbar ******************************************************/
 
  #navbar {
     background-color: #314B6A;
@@ -47,10 +33,12 @@
 
  #DEV-button {
     border: solid 2px #212121;
+    border-radius: 3px;
     font-weight: 700;
     color: #212121;
     background-color: #ffffff;
     padding: 2% 2% 2% 2%;
+    cursor: pointer;
  }
 
  #search-button {
@@ -58,6 +46,7 @@
     background-color: #AEC5EB;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: solid 2px #808080;
+    border-radius: 3px;
     padding: 1.5% 2% 1.5% 2%;
     cursor: pointer;
     transition: all 0.3s ease;  /* Helps in changing the CSS properties when we hover or click the input tag or any other tag with ease and with a delay of 0.3s */
@@ -73,9 +62,126 @@
     width: 40%;
     background-color: #6470DF;
     color: #212121;
+    border: solid 2px #212121;
+    border-radius: 3px;
+    padding: 2% 2% 2% 2%;
+    cursor: pointer;
  }
 
  .emoji {
     background-color: #314B6A;
+    cursor: pointer;
  }
 
+/*************************************************** main-page:hamburger ***************************************/
+ 
+ #grid-container {
+    display: grid;
+    height: 90vh; /* agar grid-container ka height aur width acche se set nahi kiya to inside element jab jyada jagah lenge to fir hide ho jaayenge */
+    grid-template-columns: 20% 50% 30%; /* % value is based upon the grid-container itself instead of the parent container */
+ }
+
+ #hamburger-container {
+    display: grid;
+    grid-template-rows: 45% 55%;
+ }
+
+ #list {
+    display: grid;
+    grid-template-rows: repeat(7, 1fr); /* 7 equal rows will form automatically */
+    overflow-y: auto; /* this will add more space vertically and a scroll bar will be added to access the content below */
+ }
+
+ .list-items {
+    margin: 5%;
+    justify-content: flex-start;
+    cursor: pointer;
+ }
+
+ .list-emoji-container {
+    margin: 2%;
+ }
+
+ .list-text-container {
+    margin: 2%;
+ }
+
+ #More {
+    margin-left: 10%;
+    cursor: pointer;
+ }
+
+ #My-tags {
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+ }
+
+ .tags {
+    margin: 5%;
+    cursor: pointer;
+ }
+
+/******************************************** main-page:content-navbar ********************************************/
+  
+ #central-content {
+    margin: 0% 2% 0% 2%;
+    display: grid;
+    grid-template-rows: 10% 35% 30% 25%;
+    overflow-y: auto;
+ }
+
+ #content-navbar {
+    margin-left: 2%;
+    margin-right: 2%;
+ }
+
+ #posts {
+    height: 100%;
+    margin-top: 5%;
+ }
+
+ #rest-of-content-navbar {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .navbar-toggles {
+    border: solid 2px #212121;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+
+ .navbar-toggles:hover {
+    font-weight: 500;
+    color: #6470DF;
+    border-bottom: solid 2px #6470DF;
+ }
+
+ /**************************************************** main-page:cards ***********************************************/
+
+ #ux-container {
+    background-image: url(./images/gradient-ui-ux-elements-background_23-2149056159.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 2px #212121;
+    border-radius: 5px;
+ }
+
+ .content-cards {
+    display: grid;
+    grid-template-rows: 20% 30% 25% 25%;
+    border: solid 10px #BBCBCB;
+ }
+
+ .profile {
+    display: flex;
+    justify-content: flex-start;
+ }
+
+ .pfp-name-with-date {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    margin: 1%;
+ }

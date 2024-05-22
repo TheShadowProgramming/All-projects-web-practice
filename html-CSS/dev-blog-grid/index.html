@@ -10,22 +10,165 @@
 <body>
     <div id="navbar" class="flex-space-between">
         <div id="left-wrapper" class="flex-space-around">
-            <button id="DEV-button" class="buttons">
+            <button id="DEV-button">
                 DEV
             </button>
             <i class="fa-solid fa-magnifying-glass emoji"></i>
-            <input type="text" placeholder="Search..." id="search-button" class="buttons">
+            <input type="text" placeholder="Search..." id="search-button">
         </div>
         <div id="right-wrapper" class="flex-space-around">
-            <button id="write-post" class="buttons">
+            <button id="write-post">
                 Write a post
             </button>
             <i class="fa-brands fa-rocketchat emoji"></i>
             <i class="fa-regular fa-bell emoji"></i>
             <i class="fa-solid fa-user emoji"></i>
         </div>
-
         <!-- Deal with the buttons class thingy ki kaise we can bring that effect with less code of background color being white when we click the button -->
+    </div>
+    <div id="grid-container">
+        <div id="hamburger-container">
+            <div id="list">
+                <div class="list-items flex-space-around">
+                    <div class="list-emoji-container">
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <div class="list-text-container">
+                        Home
+                    </div>
+                </div>
+                <div class="list-items flex-space-around">
+                    <div class="list-emoji-container">
+                        <i class="fa-solid fa-book"></i>
+                    </div>
+                    <div class="list-text-container">
+                        Reading List
+                    </div>
+                </div>
+                <div class="list-items flex-space-around">
+                    <div class="list-emoji-container">
+                        <i class="fa-solid fa-map"></i>
+                    </div>
+                    <div class="list-text-container">
+                        Listings
+                    </div>
+                </div>
+                <div class="list-items flex-space-around">
+                    <div class="list-emoji-container">
+                        <i class="fa-solid fa-microphone"></i>
+                    </div>
+                    <div class="list-text-container">
+                        Podcasts
+                    </div>
+                </div>
+                <div class="list-items flex-space-around">
+                    <div class="list-emoji-container">
+                        <i class="fa-solid fa-video"></i>
+                    </div>
+                    <div class="list-text-container">
+                        Videos
+                    </div>
+                </div>
+                <div class="list-items flex-space-around">
+                    <div class="list-emoji-container">
+                        <i class="fa-solid fa-tag"></i>
+                    </div>
+                    <div class="list-text-container">
+                        Tags
+                    </div>
+                </div>
+                <div id="More">
+                    More...
+                </div>
+            </div>
+            <div id="My-tags">
+                <div class="flex-space-between tags">
+                    <h3> My Tags </h3>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+                <div class="tags">#javascript</div>
+                <div class="tags">#webdev</div>
+                <div class="tags">#career</div>
+                <div class="tags">#tutorial</div>
+                <div class="tags">#react</div>
+                <div class="tags">#productivity</div>
+            </div>
+        </div>
+        <div id="central-content">
+            <div class="flex-space-between" id="content-navbar">
+                <div id="posts">
+                    <h2>Posts</h2>
+                </div>
+                <div id="rest-of-content-navbar">
+                    <div class="navbar-toggles">Feed</div>
+                    <div class="navbar-toggles">Week</div>
+                    <div class="navbar-toggles">Month</div>
+                    <div class="navbar-toggles">Year</div>
+                    <div class="navbar-toggles">Infinity</div>
+                    <div class="navbar-toggles">Latest</div>
+                </div>
+            </div>
+
+            <div id="ux-container"></div>
+            <!--work from here-->
+            <div class="content-cards">
+                <div class="profile">
+                    <i class="fa-solid fa-user pfp-name-with-date"></i>
+                    <div class="pfp-name-with-date">
+                        <p class="pfp-name">Dev-interview-io</p>
+                        <p class="post-date">May 20 (17 hours ago)</p>
+                    </div>
+                </div>
+                <div class="heading-of-post">
+                    <h2>UX design interview questions and answers for designers</h2>
+                </div>
+                <div class="tags-of-post">
+                    <div class="tag-content">#ux</div>
+                    <div class="tag-content">#design</div>
+                    <div class="tag-content">#webdev</div>
+                    <div class="tag-content">#career</div>
+                </div>
+                <div class="reactions-on-post">
+                    <div id="wrapper-for-likes,comments">
+                        <div>
+                            <i class="fa-regular fa-heart"></i>
+                            <p>reactions</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-message"></i>
+                            <p>Add comments</p>
+                        </div>
+                    </div>
+                    <div id="wrapper-for-save">
+                        <div>
+                            14 min read
+                        </div>
+                        <div>
+                            <button id="save-button">
+                                Save
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-cards">
+                <div class="profile">
+
+                </div>
+                <div class="heading-of-post">
+
+                </div>
+                <div class="tags-of-post">
+
+                </div>
+                <div class="reactions-on-post">
+                    
+                </div>
+            </div>
+        </div>
+        <div id="miscellaneous-content">
+
+        </div>
     </div>
 </body>
 </html>
