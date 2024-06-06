@@ -9,6 +9,8 @@
 }
 
 .container-with-bg {
+    width: clamp(200px, 50%, 700px);
+    height: clamp(100px, 50%, 500px);
     background-image: url(gray_line_drawings_of_organic_shapes_background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
