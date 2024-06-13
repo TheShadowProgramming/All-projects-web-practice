@@ -80,3 +80,4 @@ export default App
 // it does 3-4 things :- a. prioritizes some operations over the other like updating animations more frequently than updating the cart 
 // b. aborts certain updating operations when necessary like har update of the DOM pe react doesn't changes it, it waits for a certain number of time/operations
 // React fiber also under the hood performs all the operations related to diffing between all the versions of Virtual DOM objects
+// when we run npm run build then a build folder is created which has all the code which is pushed into production or for the browser to understand
