@@ -23,7 +23,7 @@ body {
   margin: 0% 2% 0% 2%;
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
-  grid-template-rows: 25% 25% 50%;
+  grid-template-rows: repeat(3, 1fr);
   box-sizing: border-box; /* this ensures that the border and padding are included in the total height and width of the div */
 }
 
@@ -67,4 +67,10 @@ body {
 
 .props-children-wala-area {
   margin: 2%;
+}
+
+.lower-travel-button {
+  margin: 1.5%;
+  border-radius: 5px;
+  background-color: #0a45a3;
 }
