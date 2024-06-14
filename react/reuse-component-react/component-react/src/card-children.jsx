@@ -1,5 +1,4 @@
-import "./index.css"
-import { useState } from 'react' // we'll use it for toggleVisibility + take input from the user about the card, uske baad banao toggle for visibility and also for
+import "./index.css" // we'll use it for toggleVisibility + take input from the user about the card, uske baad banao toggle for visibility and also for
 import PropTypes from "prop-types"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendar } from '@fortawesome/free-solid-svg-icons' // pehle font-awesome ke packages install karo, fir icon import karo and agar kuch typo aaya to blank white screen aayega
