@@ -9,7 +9,7 @@ function Card (props) {
 
    function changeVisibility() {
       visibilityChanger(!isVisible)
-      return;
+      return; // if I write these state variables in the App component, then these variables become central state yaani ek jagah pe change hone se sab jagah change ho jaayega
   }
 
     if (isVisible) {
