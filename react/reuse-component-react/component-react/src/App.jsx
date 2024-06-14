@@ -16,6 +16,14 @@ function App() {
             // props.children end here
           }
         </Card>
+
+        <Card>
+            <CardChildren name="someRandomName2"/>
+        </Card>
+
+        <Card>
+          <CardChildren name="someRandomName3" />
+        </Card>
       </div>
     </>
   )
