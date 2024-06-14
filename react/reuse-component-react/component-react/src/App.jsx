@@ -1,19 +1,12 @@
 import "./index.css"
 import Card from "./reusable-card.jsx"
-import CardChildren from "./card-children.jsx"
-import { useState } from 'react'; // state updates are passed down from Parent to Child component in react, like the value of the state variable will be updated only in the children of the parent component or basically where we've passed down the state as props 
+import CardChildren from "./card-children.jsx" 
 
 function App() {
-  let [isVisible, visibilityChanger] = useState(false)
-
-   function changeVisibility() {
-      visibilityChanger(!isVisible)
-      return;
-  }
   return (
     <>
       <div className='travel-card-menu'>
-        <Card state={isVisible} stateChanger={changeVisibility}> {
+        <Card> {
            // props.children start here
           }
             <CardChildren name='someRandomName'/> {
@@ -24,11 +17,11 @@ function App() {
           }
         </Card>
 
-        <Card state={isVisible} stateChanger={changeVisibility}>
+        <Card>
             <CardChildren name="someRandomName2"/>
         </Card>
 
-        <Card state={isVisible} stateChanger={changeVisibility}>
+        <Card>
           <CardChildren name="someRandomName3" />
         </Card>
       </div>
