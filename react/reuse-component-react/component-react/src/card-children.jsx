@@ -41,7 +41,7 @@ function CardChildren (props) {
 }
 
 CardChildren.propTypes = { // even though we have PropTypes while importing the function, we must use camelCase while adressing the propTypes of the component that we've defined 
-  name: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired, // any random comment
   travelDestination: PropTypes.string,
   travelBudget: PropTypes.number,
 }
