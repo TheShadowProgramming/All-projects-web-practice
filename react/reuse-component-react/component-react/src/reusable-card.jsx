@@ -35,7 +35,10 @@ function Card (props) {
                     {props.children}
                 </div>
                 <button onClick={changeVisibility} className='lower-travel-button'>
-                    {isVisible ? 'Show' : 'Hide'} Card
+                    {isVisible ? 'Show' : 'Hide'} Card {
+                        // we can't write js expression here isliye terniary operator is very useful as it was introduced in newer version of ES
+                        // basically if else ka {} ke liye alternative
+                    }
                 </button>
             </div>
         )
