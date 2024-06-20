@@ -29,4 +29,9 @@ function App() {
   )
 }
 
+// rafce is shortcut to make a react component where we're importing react and then exporting the component too
+// it's better to make a components folder in the src folder where we'll write code for every component, and seperate styling for every component
+// react bootstrap if the framework to bootstrap your react project, react bootstrap se components utha rahe to 
+// className keyword 
+
 export default App
