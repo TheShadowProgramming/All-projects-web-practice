@@ -51,4 +51,22 @@ function App() {
 // the # tags that are included in the hrefs of different navbar.link components will redirect user to the element with that id
 // and in this way the page becomes a single page application
 
+// useEffect hook introduction :-
+
+// useEffect hook is used to run some code after a certain side effect in the website
+// like if state changes then useEffect hook will run, like if the page renders then the useEffect hook works
+// it takes 2 arguments, one being the callback function inside which the code is present
+// which is supposed to run after our desired side Effect happens
+// and the second argument describes when the useEffect would come into action
+// it must be an array of dependencies(basically variables) which when changed, useEffect hook starts working
+// if the 2nd argument is an empty array then the useEffect hook only run the code when the page re-renders
+
+// window object and eventListener :- window object has some useful attributes like
+// scrollY (amount of pixels travelled from the top of the page to the current window's top)
+// window.innerHeight gives the height of the current window open
+// window.addEventListener is used to listen to events happening in the window
+// addEventListener accepts 2 arguments, one being the event like scroll or resize, and the other being the callback function which runs when the event happens
+// we can also use the removeEventListener to remove the event listener, to avoid memory leaks which uses more resources than desired
+// usually we remove eventListener when the component is unmounted (removed from the dom)
+// in the context of useEffect, we return a function which will be called when the component unmounts, and inside that function is the code which will remove the event listener
 export default App;
