@@ -69,4 +69,10 @@ function App() {
 // we can also use the removeEventListener to remove the event listener, to avoid memory leaks which uses more resources than desired
 // usually we remove eventListener when the component is unmounted (removed from the dom)
 // in the context of useEffect, we return a function which will be called when the component unmounts, and inside that function is the code which will remove the event listener
+//
+
+// React Bootstrap and other CSS hacks :-
+// if we want ki parent element ka background dikhai de, then we gotta use these properties variant=light, bg=transparent, fixed=top, expand=lg in the reactBootstrap component that we're using
+// display: grid, place-items: center, place-content: center se website me jo bhi hoga vo ekdum proper center me aa jaayega
+// freefrontend website to use the many html css and js snippets to make our frontend work speak up
 export default App;
