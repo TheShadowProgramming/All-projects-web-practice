@@ -75,4 +75,7 @@ function App() {
 // if we want ki parent element ka background dikhai de, then we gotta use these properties variant=light, bg=transparent, fixed=top, expand=lg in the reactBootstrap component that we're using
 // display: grid, place-items: center, place-content: center se website me jo bhi hoga vo ekdum proper center me aa jaayega
 // freefrontend website to use the many html css and js snippets to make our frontend work speak up
+// remember to use text-shadow property to customize the look of the text 
+// you can use line height property to change the space between lines of the container
+// text-space property to decide the space between the text of the container
 export default App;
