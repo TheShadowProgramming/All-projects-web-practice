@@ -49,4 +49,6 @@ Card.propTypes = {
     children: PropTypes.node.isRequired,
 }; // defines a schema for the types of data that we can pass inside the value of the keys defined
 
+// random comment
+
 export default Card;
