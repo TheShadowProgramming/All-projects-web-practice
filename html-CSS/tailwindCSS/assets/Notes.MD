@@ -98,6 +98,8 @@ plugins: [],
 
 - for bringing checkbox, we input of type checkbox then label tag inside it with the name of the checkbox
 
+- gradient card border laa do from the aceternity, jispe man kiya usme meteors ka card, flip words animation from aceternity ui, floating navbar bana liya, infinite scrolling cards, lamp effect in home page, lamp effect ke saath text generate effect
+
 - ![alt text](image-6.png)=> this is how to bring the slider for different cards, isko automatic kar denge using js or something else
 
 - ![alt text](image-5.png)=> isse ek specific portion of the page pe aane ke baad apne ko fixed navbar ke wajah se uss portion of the website ka heading nahi chupega
