@@ -98,7 +98,9 @@ plugins: [],
 
 - for bringing checkbox, we input of type checkbox then label tag inside it with the name of the checkbox
 
-- gradient card border laa do from the aceternity, jispe man kiya usme meteors ka card, flip words animation from aceternity ui, floating navbar bana liya, infinite scrolling cards, lamp effect in home page, lamp effect ke saath text generate effect
+- gradient card border laa do from the aceternity, jispe man kiya usme meteors ka card, flip words animation from aceternity ui, floating navbar bana liya, infinite scrolling cards, lamp effect in home page, lamp effect ke saath text generate effect, sroll-bar ke badle we can bring the line jo aise falling light ki tarah ho 
+
+- waves video (https://www.youtube.com/watch?v=lPJVi797Uy0)
 
 - ![alt text](image-6.png)=> this is how to bring the slider for different cards, isko automatic kar denge using js or something else
 

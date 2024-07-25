@@ -60,6 +60,10 @@ function App() {
 // and the second argument describes when the useEffect would come into action
 // it must be an array of dependencies(basically variables) which when changed, useEffect hook starts working
 // if the 2nd argument is an empty array then the useEffect hook only run the code when the page re-renders
+// also one more thing to understand is that the updates in the new rect algorithm fiber sends updates to DOM in batches like and in batches the similar updates are ruled out 
+// function in the array returned by the useState hook is kinda asynchronous in nature like it doesn't updates the state then and there, but instead schedules the update after all the code has been executed or the existing updates are done, isliye when we update the same variable again and again 
+// basically understanding that the useState update ke variables should only be used for, and state variables ke change hone pe useEffect ke andar ka code run hota (useEffect is not for event listening, its for state change)
+// state upadate function 2 types of arguments le sakta hai one being the updated state itself and the other being the function which does something with the state, by default agar state variable pass kar diya to fir vo variables pass karte wakt jo variable ki value hogi wahi use hogi to update the state, but if we pass a function to usme variable containing the state ke bajaaye previous state leke pass karega countState me 
 
 // window object and eventListener :- window object has some useful attributes like
 // scrollY (amount of pixels travelled from the top of the page to the current window's top)
