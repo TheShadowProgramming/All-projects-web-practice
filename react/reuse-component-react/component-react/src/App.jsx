@@ -73,6 +73,19 @@ function App() {
 // we can also use the removeEventListener to remove the event listener, to avoid memory leaks which uses more resources than desired
 // usually we remove eventListener when the component is unmounted (removed from the dom)
 // in the context of useEffect, we return a function which will be called when the component unmounts, and inside that function is the code which will remove the event listener
+// In order to conditional rendering we use ternary operator and some javascript checks whether the state has some value or not, html ko hi variables me store karke kaam karna is also one method
+// default propTypes help in debugging
+// giving unique keys to objects in react helps in boosting the performance of the website since , it helps react to do the reconciliation easily, it will only compare 2 elements with same key instead of comparing everything 
+// we can use conditional rendering to return if no data is present
+// propTypes.shape({
+//   name: PropTypes.string,
+//   age: PropTypes.number,
+// }) 
+// basically this method is used to define default objects
+// to handle onClick events with parameteres we should use an arrow function jiske andar humaare function ka ek parameter ke saath ka value return hoga, by default onClick event trigger hone pe jo event object hoga vo pass ho jaayega onClick event handler function me as a first argument, and we mention anything in the arrow function then vo event object hi consider hoga and then uss event object ke saath we can do something in the function inside the arrow function
+// we can do this directly too by just passing e in the definition of the function, and the function will be able to access the event object in it
+// but its better to use arrow functions only 
+// just like onClick event handler, we have onDoubleClick event handler too
 
 // more CSS hacks :- use transition property , like ask GPT and search ki ease in and ease out property p
 

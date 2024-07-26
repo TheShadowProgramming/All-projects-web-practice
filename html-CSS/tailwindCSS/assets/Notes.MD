@@ -28,12 +28,20 @@
 - flex col. makes the flex happen in vertical direction
 - object-cover to the div of image will crop the image while preserving its aspect ratio, better than overflow hidden for the images having predefined width and height bigger than the container that they're in
 - color-pallete banane ke liye use hsl values ek color pakdo (baadme gradient banane ke liye kaam aayega) hue badlo of a chosen color, keep the saturation and lightness fixed to make a color pallete
+- max-w-(any value here) will make the component take the max specified width of the container
+- agar text ke andar hi kuch specific words pe styling lagani hai to we can use span tag to bring the content inside it
+- custom values inside the tailwind likhne ke liye rem units ke multiples use karna is better since again you know vo iPhone ka chakkar
+- chote devices pe we can give the display hidden and medium devices pe display block
+- we can use multiple cursors in tailwind too so as to give similar styles to many things
+- &#8801 is the inside anchor tag to get the hamburger menu icon
+- h-auto dete jao and the website adjusts the height of the container according to the content inside it
+- fixed px values can cause dikkat when zooming in or out therefore its better to use rem units to make the website responsive 
 - rest search in tailwind docs
 
 # Custom values
 
 - we can use arbitary values in tailwindCSS properties using hyphen and [] brackets (but it works for only pixel values first)
-- filhaal me clamp is not supported in tailwind, so we can maybe use the clamp in head tag's tailwind 
+- filhaal me clamp is not supported in tailwind, so we can maybe use the clamp in head tag's tailwind
 - Also if we want to viewport units to something then using custom utility classes make sense
 
 module.exports = {
@@ -55,6 +63,7 @@ plugins: [],
 
 ![grid-tutorial](image-2.png)
 ![alt text](image-1.png) => for placing multiple items one over the other, we use this, applicable on child divs and the lines are named from the border of the grid itself, starts at the border and ends at the border
+
 - grid-auto-rows: minmax(100px, auto); => this property is god since it'll help you to add new rows when you have data after fetching data from the API, auto karke max width kardo and minimum height of the row humne 100px daal diya
 
 ### flex
@@ -79,8 +88,9 @@ plugins: [],
 - active class is used to style elements jab unpe click ka moment ho raha hota hai yaani when the person is holding the stuff jispe active class laga rahe hai
 - dark: psuedo class helps you to write seperate styling for dark mode if we want to change something then
 
-
 # Param CSS tricks to make something like piyush garg
+
+- use header tag + nav tag for SEO based response
 
 - CSS only navigation tutorial from Coding2GO channel for mobile based navbar which collapses
 
@@ -90,7 +100,7 @@ plugins: [],
 
 - give the child elemend the background color rgba(255,255,255,0.05) and then give backdrop-filer: blur(10px), more the pixels more the blurness, use borders shadows to make it more realistic
 
-- dark mode ke liye seperate color and stuff, ask her about the color that she want in every element and so 
+- dark mode ke liye seperate color and stuff, ask her about the color that she want in every element and so
 
 - ![alt text](image-4.png) => text ko gradient color dene ke liye
 
@@ -98,7 +108,7 @@ plugins: [],
 
 - for bringing checkbox, we input of type checkbox then label tag inside it with the name of the checkbox
 
-- gradient card border laa do from the aceternity, jispe man kiya usme meteors ka card, flip words animation from aceternity ui, floating navbar bana liya, infinite scrolling cards, lamp effect in home page, lamp effect ke saath text generate effect, sroll-bar ke badle we can bring the line jo aise falling light ki tarah ho 
+- gradient card border laa do from the aceternity, jispe man kiya usme meteors ka card, flip words animation from aceternity ui, floating navbar bana liya, infinite scrolling cards, lamp effect in home page, lamp effect ke saath text generate effect, sroll-bar ke badle we can bring the line jo aise falling light ki tarah ho
 
 - waves video (https://www.youtube.com/watch?v=lPJVi797Uy0)
 
@@ -110,5 +120,7 @@ plugins: [],
 
 - ![alt text](image-8.png)=> for some infinite animation in the website
 - ![alt text](image-9.png)=> part2 of the same
+
+- remember to manipulate the purge property in the tailwind config file to remove unused CSS
 
 - freeFrontEnd and devUI + mantime
