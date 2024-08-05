@@ -19,6 +19,7 @@
 
 - rem is a unit to give font size (1rem = 16px) [derived from the root html element of the document and when the user changes the font size from the root element tab the website reacts]
 - m-4(1rem, 16px), p-6(1.5rem, 24 px)
+- ![alt text](79425208-b4d05c80-8004-11ea-8323-0903ae66fe81.png) => rem unit scaling, mostly we have to see by trial and error
 - mx-auto se horizontal centring, my-auto se vertical centring
 - ![calc function](image.png) for applying very detailed CSS like 80% viewport height se 5 px kam ho ya 10 px kam ho
 - box-sizing: border-box; // ye chije mandatorily karlo in the root selector and then move on to the other code sections
@@ -36,6 +37,13 @@
 - &#8801 is the inside anchor tag to get the hamburger menu icon
 - h-auto dete jao and the website adjusts the height of the container according to the content inside it
 - fixed px values can cause dikkat when zooming in or out therefore its better to use rem units to make the website responsive 
+![alt text](image-10.png) => customizing the scroll bar
+![alt text](image-11.png) => navbar me items ko spacing dena
+![alt text](image-12.png) => collapsible effect   
+
+- grayscale(100%) se grayscale(0%) and then opacity(0.7) se opacity(1) on hover, usse modern feel aayega that the shit is lighting up
+- letter-spacing: 0.3ch (makes the letters space more), font-weight: bold for logo texts
+- we can even do some small transitions like rotate(0degree) to some other value for rotating the svg logo [transitions work for svg logos] 
 - rest search in tailwind docs
 
 # Custom values
@@ -63,6 +71,7 @@ plugins: [],
 
 ![grid-tutorial](image-2.png)
 ![alt text](image-1.png) => for placing multiple items one over the other, we use this, applicable on child divs and the lines are named from the border of the grid itself, starts at the border and ends at the border
+- place-items center
 
 - grid-auto-rows: minmax(100px, auto); => this property is god since it'll help you to add new rows when you have data after fetching data from the API, auto karke max width kardo and minimum height of the row humne 100px daal diya
 
@@ -71,11 +80,12 @@ plugins: [],
 - justify-content brings the content in main axis ka centree, if we make the main axis column then vertically justify content kaam karega
 - flex wrap brings the overflowing content in the next line
 - try to avoid using gap in flex not in grid, instead space evenly makes more sense
-- order property helps you to bring the elements in front like vo ek line me alag alag elements hai and uska vo transition kar rahe hai, idk GPT karna padega
+- order property helps you to bring the elements in order, like if we want that some specific element should come earlier in the flex container then we can give that element the order of -1 and then the element comes before the elements which have a positive order value, jaise we give elements the value of flex usi tarah we give those elements value of order to order them properly if we want
 - giving values of flex to children makes them take those many number of fractional units just like grid is, like children ki styling me flex: 1; will give it 1 fr
 
 ### Responsive design (mobile first approach)
 
+- z-index brings the elements in front making the website look 3D in nature and the elements look one over the other 
 - write the CSS for mobile first then use sm:/md:/lg: type psuedo classes for writing the design for larger screens
 - image ke size ko manipulate karne ke liye insert the link instead of downloading (if possible)
 - clamp(minimum-value preffered-value maximum-value) => we can give this value to any property of CSS to make our components responsive
@@ -98,7 +108,7 @@ plugins: [],
 
 ![alt text](image-3.png) => make sure to do the white color lighter than the element's background (slightly lighter)
 
-- give the child elemend the background color rgba(255,255,255,0.05) and then give backdrop-filer: blur(10px), more the pixels more the blurness, use borders shadows to make it more realistic
+- give the child element the background color rgba(255,255,255,0.05) and then give backdrop-filer: blur(10px), more the pixels more the blurness, use borders shadows to make it more realistic
 
 - dark mode ke liye seperate color and stuff, ask her about the color that she want in every element and so
 

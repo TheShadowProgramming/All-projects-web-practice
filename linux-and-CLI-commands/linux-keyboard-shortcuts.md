@@ -8,6 +8,8 @@
 - alt + f10 (maximize window)
 - alt + f9 (hide window)
 - gnome characters to get the list of emojis
+-    (for reducing brightness a bit)
+
 
 # Typing shortcuts
 
@@ -38,6 +40,7 @@
 
 
 # VS Code shortcuts
+- cltr + f to search within the given file
 - ! in a comment will make it red to read and writing TODO before a comment will highlight it orange (using the comment extension)
 - Cltr + K, Cltr + O to open any folder
 - Alt + Z for word wrapping
