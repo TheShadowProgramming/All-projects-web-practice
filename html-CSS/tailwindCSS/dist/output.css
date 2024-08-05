@@ -963,3 +963,7 @@ video {
     width: 20%;
   }
 }
+
+.test-background-color {
+  background-color: #7C7C7C;
+}
