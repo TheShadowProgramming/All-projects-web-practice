@@ -8,7 +8,7 @@
 - alt + f10 (maximize window)
 - alt + f9 (hide window)
 - gnome characters to get the list of emojis
--    (for reducing brightness a bit)
+- xrandr --output eDP-1 --brightness 0.7 (for reducing brightness a bit)
 
 
 # Typing shortcuts
@@ -31,6 +31,7 @@
 # Notion shortcuts (similar to markdown syntax)
 
 - bullet list => '-' + space
+- cltr + f to search within the notion page
 - numbered list => 'n.' + space for the nth point
 - to indent a list, we use tab in the inner list
 - checkbox => '[]' + space
@@ -56,6 +57,8 @@
 - alt + upwards arrow to bring the line upwards/and the same for downwards
 - alt + shift + upwards/downwards to copy the line upwards or downwards
 - cltr + L to highlight the line and move the cursor below the given line, and then cltr + / to comment it out in the given format jis bhi format me it is supposed to be commented 
+- cltr + shift + E to come back to file explorer
+- cltr + shift + G to come back to vcs (git github basically)
 - js docstrings to add proper comment for other to read and understand the code
 - auto-create folder using / while creating a file
 - for reaching the end of the line we use fn + right arrow, and for reaching the start of the line we use fn + left arrow 
