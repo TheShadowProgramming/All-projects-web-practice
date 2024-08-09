@@ -18,11 +18,11 @@ function importDataFunction() {
   }
 }
 
-function exportDataFunction(importData) {
+function exportDataFunction(DataToBeExported) {
   try {
     fs.writeFileSync(
       "../files/todoServer.JSON",
-      JSON.stringify(importData, null, 2)
+      JSON.stringify(DataToBeExported, null, 2)
     );
   } catch (err) {
     console.log(err);
@@ -72,8 +72,8 @@ app.get("/signup", (req, res) => {
   let flag = true;
   for (let i = 0; i < importData.data.length; i++) {
     if (importData.data[i]["username"] == req.body["username"]) {
-      res.status(409).json({ msg: "user already exists" });
       flag = false;
+      res.status(409).json({ msg: "user already exists" });
     }
   }
   if (flag) {
@@ -225,4 +225,8 @@ app.use((err, req, res, next) => {
 app.listen(4500);
 module.exports = app;
 
-// Debouncing is limiting time-consuming tasks to fire
+// Debouncing is limiting time-consuming tasks/functions to fire jab tak input stable naa ho
+// like when the user is typing something in the search box then the search box gives automatic suggestion
+// and automatic suggestion dene ka function fire thoda late se fire hoga when 
+
+// Rate-limiting is restricting function calls to a certain number under a time period 
