@@ -27,6 +27,7 @@ mkdir (Make a new directory)
     Icon=/home/yourusername/Downloads/example.png
     Type=Application
     Categories=Utility;
+- exit by cltr + X, Y, enter
 - chmod +x ~/.local/share/applications/example.desktop
 - sudo apt-get update
 - sudo apt-get upgrade
