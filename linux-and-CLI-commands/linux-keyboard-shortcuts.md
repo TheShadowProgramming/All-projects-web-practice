@@ -44,11 +44,11 @@
 - cltr + f to search within the given file
 - ! in a comment will make it red to read and writing TODO before a comment will highlight it orange (using the comment extension)
 - Cltr + K, Cltr + O to open any folder
-- Alt + Z for word wrapping
+- Alt + Z for text wrapping
 - Cltr + P to open the recent files 
 - Cltr + ` (to open a terminal)
 - cltr + K to clear out the terminal and upwards arrow or downwards arrow to bring the latest command typed
-- cltr + shift + I to format the document 
+- cltr + shift + I to format the document and indent the code properly
 - cltr + shift + X to get the extensions tab
 - cltr + shift + . to get all the objects in the file and then change something
 - cltr + . to open the settings
@@ -63,3 +63,6 @@
 - auto-create folder using / while creating a file
 - for reaching the end of the line we use fn + right arrow, and for reaching the start of the line we use fn + left arrow 
 - json to code extension for converting the json code in typescript
+
+# Typing websites
+- 10fastfingers (for most common english words) and keybr.com (for improving our weaknesses)  
