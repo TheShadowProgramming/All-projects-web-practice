@@ -1,13 +1,15 @@
-import DataStoringButton from './DataStoringButton'
-import './App.css'
+import './App.css';
+import Signup from './components/Signup';
+import DatabasePutButton from './components/DatabasePutButton';
+import Signin from './components/Signin';
 
 function App() {
-    
+
   return (
     <>
-      <div className='bg-slate-900 w-screen h-auto'>
-        <DataStoringButton />    
-      </div>
+      <Signup />
+      <DatabasePutButton />
+      <Signin />
     </>
   )
 }
