@@ -66,3 +66,6 @@
 
 # Typing websites
 - 10fastfingers (for most common english words) and keybr.com (for improving our weaknesses)  
+- monkeytype custom typing which is 10fastfingers wala text only
+- accuracy practice like slow and just making sure that the right keys are pressed by the right fingers
+- and then speed practice where we practice and try to solidify the new skills that we learned just now
