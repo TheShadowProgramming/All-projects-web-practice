@@ -1,0 +1,1 @@
+![exacalidraw, diagram to explain how custom hooks work](image.png)
