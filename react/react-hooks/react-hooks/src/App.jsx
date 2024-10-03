@@ -49,8 +49,8 @@ function App() {
         <div className="bg-slate-800 w-[55vw] h-auto mx-auto py-8 flex flex-wrap justify-center rounded-2xl">
           <div className="w-[90%] h-auto flex flex-wrap gap-0 justify-center">
             <input
-              value={password}
-              placeholder="Password"
+              value={password} // it maintains the previous value of the input given by the user across re-renders which means even after the re-render we'll get the previous value 
+              placeholder="Password" // this is the hint text which appears when we remove everything from the input box 
               readOnly
               type="text"
               ref={passwordRef} // passwordRef.current will reference this input JSX node

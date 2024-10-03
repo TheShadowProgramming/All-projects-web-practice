@@ -9,6 +9,8 @@
 
  - we use useCallback for optimization purposes since re-creating instances of big functions on every re-render of the website makes our website slow, now this useCallback hook may become obsolete in future but yea let's see
 
+ - also if useEffect ek function pass karna h jiske change hone pe we want the executor function of the useEffect to take action to fir we pass the dependency function in the useCallback hook first usse vo function memoize ho jata hai and then we can pass the function in useEffect ka dependency array since the function won't unnecessarily after re-render of the component and consistency of the sideEffect function of useEffect will be maintained
+
  - and like function's instance is recreated only when the state variable changes
 
 
