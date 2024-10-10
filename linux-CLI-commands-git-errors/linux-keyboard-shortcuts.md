@@ -27,6 +27,8 @@
 - ctlr + k for searching something in the current tab
 - ctlr + t for firing a new tab in the browser
 - alt + left key for going backwards in the browser and alt + right for going forwards in the browser
+- yt me full screen ke liye f, numbers dabaane se video ke 10 hisse ho jaate hai and we can get to that specific portion by pressing that number key
+- shift + . will increase the speed of the video
 
 # Notion shortcuts (similar to markdown syntax)
 
@@ -55,7 +57,8 @@
 - cltr + D on a word to edit it and then cltr + D again to select all the words of that sort
 - auto-rename-tag to automatically rename the closing tag when we're editing the opening tag
 - alt + upwards arrow to bring the line upwards/and the same for downwards
-- alt + shift + upwards/downwards to copy the line upwards or downwards
+- alt + shift + upwards/downwards to get multiple cursors on the same place in multiple lines 
+- shift + alt + upward arrow or downward arrow to paste the stuff that you selected just now
 - cltr + L to highlight the line and move the cursor below the given line, and then cltr + / to comment it out in the given format jis bhi format me it is supposed to be commented 
 - cltr + shift + E to come back to file explorer
 - cltr + shift + G to come back to vcs (git github basically)
