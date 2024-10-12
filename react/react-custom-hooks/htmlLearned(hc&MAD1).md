@@ -9,7 +9,8 @@
 - sub is subscript tag, sup is superscript it raises the power 
 - BlockQoute is another tag where we can qoute something which is said by someone in our website, and uska cite attribute se we can link the citing source of that saying (search mdn)
 - abbr tag with title attribute is used to make acronyms jinka full form aata when we hover over the acronym, and we have to feed that full form in the title attribute of the abbr tag
-
+- input tag and select tag type of tags can be given some value attribute which will render the value it has been given starting me hi
+- select tag ke andar we render option tags jiski kuch value hoti
 
 # SEO optimization google practices
 
