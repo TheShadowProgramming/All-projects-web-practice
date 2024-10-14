@@ -79,3 +79,19 @@ fetchData()
     console.error(`Final catch: ${error}`);
   });
 ///
+
+# Another thing to remember about hooks
+
+- order of calls of the hooks is important in react since react does the virtual DOM manipulation using this order of hooks too
+- There are other tools in react's arsenal too to manipulate the DOM 
+- React stores all the hooks called in the functional component in an array and then associates the state variables corresponding to the hooks called by using the index of the hooks in the array
+- Therefore hooks shouldn't be called in conditionals or loops since these things change the order of hooks which change the index of other hooks in the array 
+- Which leads to inconsistencies 
+
+## New hook :- useId
+
+- used to generate random ids for elements in the DOM, which remains consistent across re-renders
+- First of all this hook is used to generate ids for elements in template components like card component which we use to make many components like that template component
+- Now the thing is if we create many components like this with same hardcoded ids inside then it creates confusion for react to apply other things like custom CSS using ids
+- Therefore useId is used which creates a unique id whenever we create an instance of the component and the issue of duplication of ids is resolved like this
+- now if we use useId to generate keys while mapping over an array then this may create unwanted bugs like when we create unique ids while looping then the 

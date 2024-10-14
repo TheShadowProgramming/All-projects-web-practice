@@ -11,6 +11,10 @@
 - abbr tag with title attribute is used to make acronyms jinka full form aata when we hover over the acronym, and we have to feed that full form in the title attribute of the abbr tag
 - input tag and select tag type of tags can be given some value attribute which will render the value it has been given starting me hi
 - select tag ke andar we render option tags jiski kuch value hoti
+- label tag gives screen reading softwares some context that the input tag and label tag are associated so therefore visually impaired can also browse of our website
+- also it defines the semantics of the html doc which again will improve the ranks and stuff of the website, even when the user clicks on the label still the website will focus on the input field itself 
+- Use nav tags, header tags and footer tags for defining the strucure and semantics of the website
+- map tag for creating links in the image of the website whose image tag is present just above the map tag like the we use target attribute of the map image element to strategically puts certain links in certain parts of the link
 
 # SEO optimization google practices
 
