@@ -16,6 +16,7 @@
 - ctlr + left or right arrow for going back multiple lines
 - ctlr + shift left for selecting that entire word
 - ctlr + backspace for deleting the entire word
+- cltr + shift + backspace to delete the entire line
 - using Tab for switching between different portions of the window
 
 # Window shortcuts
