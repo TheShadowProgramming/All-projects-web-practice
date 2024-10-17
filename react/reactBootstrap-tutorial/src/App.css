@@ -1,0 +1,32 @@
+@keyframes fadeInEffect {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.background-color-animation {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+}
+
+#home {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-image: url("./assets/a4ffe4ad371793d2d8df7a5966f61eed.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    animation: fadeInEffect 2s forwards;
+    opacity: 0;
+    height: 100vh;
+}
+
+

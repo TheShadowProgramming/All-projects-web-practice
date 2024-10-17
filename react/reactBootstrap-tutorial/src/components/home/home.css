@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Tilt+Neon:XROT,YROT@-3,-4&display=swap");
+
+.homePage {
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 50% 50%;
+  place-content: center;
+  height: 100vh;
+}
+
+.homeText {
+  font-family: "Roboto", sans-serif;
+  line-height: 0.894683em;
+  text-shadow: rgb(0, 255, 255) -0.014375em 0em 0em,
+    rgb(255, 0, 255) 0.014375em 0em 0em;
+  letter-spacing: 0.1em;
+  font-size: 80px;
+  text-align: left;
+}
+
+.welcomeHome {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 40px;
+  text-align: left;
+  line-height: 1.375em;
+  letter-spacing: 0.1em;
+}

@@ -1,0 +1,8 @@
+.servicePage {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    place-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
