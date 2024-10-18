@@ -133,4 +133,10 @@ plugins: [],
 
 - remember to manipulate the purge property in the tailwind config file to remove unused CSS
 
+- transition property doesn't works with the height-auto properly since browser needs fixed values to create animation effects and thus it creates the delays accordingly 
+
+- therefore try to use max-height property since by fixing a height value will make it unpredictable ki what will the height of something, height of something nahi pata tabhi to usko auto set kiya hai 
+
+- max-height auto ka bhi feature de rha hai and simultaneously apne ko fixed values of height ka bhi faayda de rha hai 
+
 - freeFrontEnd and devUI + mantime
