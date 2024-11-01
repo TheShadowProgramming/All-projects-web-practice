@@ -15,6 +15,8 @@
 - also it defines the semantics of the html doc which again will improve the ranks and stuff of the website, even when the user clicks on the label still the website will focus on the input field itself 
 - Use nav tags, header tags and footer tags for defining the strucure and semantics of the website
 - map tag for creating links in the image of the website whose image tag is present just above the map tag like the we use target attribute of the map image element to strategically puts certain links in certain parts of the link
+- form tag is used for input forms like login and registration and stuff, action attribute decides which link to send the data on and through which request too using the method attribute, enctype attribute default rehne do chedo mat until and unless you want to upload a file through the form, target attribute decided where to display the response of the form which is usually set to _self when we want that the response of the request should be on the same page and when we want the request on different page then we use _blank value of the target attribute
+- Inside the form there are various tags and stuff which we can use in cases where the form is very huge like in the case of a govt registration form, tags like fieldset and legend are used, fieldset groups some input fields and their labels together and gives them a label at the top just like label works for the input tag, legend gives the label to these input groups
 
 # SEO optimization google practices
 
