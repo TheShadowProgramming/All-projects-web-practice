@@ -53,11 +53,11 @@
 - cltr + K to clear out the terminal and upwards arrow or downwards arrow to bring the latest command typed
 - Cltr + shift + [ (to compress the div through the option that we get when we hover over the div arrow) 
 - Cltr + shift + ] (to expand the div through the option that we get when we hover over the div arrow)
-- cltr + shift + I to format the document and indent the code properly
+- cltr + B (to open and close the side bar for more space to write the code)
 - cltr + shift + X to get the extensions tab
-- cltr + shift + . to get all the objects in the file and then change something
-- cltr + . to open the settings
-- cltr + D on a word to edit it and then cltr + D again to select all the words of that sort
+- cltr + , to open the settings
+- cltr + shift + . to get all the objects/headings in the file and then change something or shift to something
+- cltr + D on a word to edit it and then cltr D again to select all the words of that sort
 - auto-rename-tag to automatically rename the closing tag when we're editing the opening tag
 - alt + upwards arrow to bring the line upwards/and the same for downwards
 - alt + shift + upwards/downwards to get multiple cursors on the same place in multiple lines 
