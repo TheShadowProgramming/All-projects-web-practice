@@ -50,7 +50,7 @@
 - Alt + Z for text wrapping
 - Cltr + P to open the recent files 
 - Cltr + ` (to open a terminal)
-- cltr + K to clear out the terminal and upwards arrow or downwards arrow to bring the latest command typed
+- cltr + L inside the terminal only (like you gotta bring the type symbol inside the terminal then only this works) to clear out the terminal and upwards arrow or downwards arrow to bring the latest command typed
 - Cltr + shift + [ (to compress the div through the option that we get when we hover over the div arrow) 
 - Cltr + shift + ] (to expand the div through the option that we get when we hover over the div arrow)
 - cltr + B (to open and close the side bar for more space to write the code)
