@@ -1,4 +1,4 @@
-# Linux general shortcuts
+# Linux xfce4 general shortcuts
 
 - alt + f3 (opening application finder)
 - alt + f4 (for closing the current window)
