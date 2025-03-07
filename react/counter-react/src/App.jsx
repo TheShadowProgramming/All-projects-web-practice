@@ -70,7 +70,7 @@ export default App
 // in order to return html using the jsx syntax, <> and </> is used inside the return function
 // we can't write logic in evaluated expressions, variables in these evaluated expressions can be used using the {} syntax
 // without using the $ sign, and this is what central state is I mean an array of object with different properties
-// babel works under the hood and converts all the modern js syntax into vanilla js 
+// babel works under the hood and converts all the modern jsx syntax into vanilla js 
 // in order to support jsx syntax in old browsers and all types of browsers
 // hooks are special functions which helps us to update the variables (basically state)
 // useState returns one variable and a function to manipulate that variable in an array
