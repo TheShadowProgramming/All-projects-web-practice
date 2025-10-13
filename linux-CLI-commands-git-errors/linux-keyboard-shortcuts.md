@@ -45,6 +45,7 @@
 
 # VS Code shortcuts
 - cltr + f to search within the given file
+- shift + alt + a to select/deselect a line as multiline string in js 
 - ! in a comment will make it red to read and writing TODO before a comment will highlight it orange (using the comment extension)
 - Cltr + K, Cltr + O to open any folder
 - Alt + Z for text wrapping
