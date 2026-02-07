@@ -10,7 +10,6 @@
 - gnome characters to get the list of emojis
 - xrandr --output eDP-1 --brightness 0.7 (for reducing brightness a bit)
 
-
 # Typing shortcuts
 
 - ctlr + left or right arrow for going back multiple lines
@@ -42,37 +41,9 @@
 - Quote => '|' + space
 - /type whatever you want
 
+## Typing websites
 
-# VS Code shortcuts
-- cltr + f to search within the given file
-- shift + alt + a to select/deselect a line as multiline string in js 
-- ! in a comment will make it red to read and writing TODO before a comment will highlight it orange (using the comment extension)
-- Cltr + K, Cltr + O to open any folder
-- Alt + Z for text wrapping
-- Cltr + P to open the recent files 
-- Cltr + ` (to open a terminal)
-- cltr + L inside the terminal only (like you gotta bring the type symbol inside the terminal then only this works) to clear out the terminal and upwards arrow or downwards arrow to bring the latest command typed
-- Cltr + shift + [ (to compress the div through the option that we get when we hover over the div arrow) 
-- Cltr + shift + ] (to expand the div through the option that we get when we hover over the div arrow)
-- cltr + B (to open and close the side bar for more space to write the code)
-- cltr + shift + X to get the extensions tab
-- cltr + , to open the settings
-- cltr + shift + . to get all the objects/headings in the file and then change something or shift to something
-- cltr + D on a word to edit it and then cltr D again to select all the words of that sort
-- auto-rename-tag to automatically rename the closing tag when we're editing the opening tag
-- alt + upwards arrow to bring the line upwards/and the same for downwards
-- alt + shift + upwards/downwards to get multiple cursors on the same place in multiple lines 
-- shift + alt + upward arrow or downward arrow to paste the stuff that you selected just now
-- cltr + L to highlight the line and move the cursor below the given line, and then cltr + / to comment it out in the given format jis bhi format me it is supposed to be commented 
-- cltr + shift + E to come back to file explorer
-- cltr + shift + G to come back to vcs (git github basically)
-- js docstrings to add proper comment for other to read and understand the code
-- auto-create folder using / while creating a file
-- for reaching the end of the line we use fn + right arrow, and for reaching the start of the line we use fn + left arrow 
-- json to code extension for converting the json code in typescript
-
-# Typing websites
-- 10fastfingers (for most common english words) and keybr.com (for improving our weaknesses)  
+- 10fastfingers (for most common english words) and keybr.com (for improving our weaknesses)
 - monkeytype custom typing which is 10fastfingers wala text only
 - accuracy practice like slow and just making sure that the right keys are pressed by the right fingers
 - and then speed practice where we practice and try to solidify the new skills that we learned just now
