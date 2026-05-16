@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            border-radius: 10px;
+        }
+        #root {
+            display: flex;
+            flex-direction: column;
+            align-items: space-evenly;
+            justify-content: start;
+            gap: 20px;
+            width: 100vw;
+            height: 100vh;
+        }
+        .colorRow {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .color{
+            width: 100px;
+            height: 75px;
+        }
+        .heading {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <div class="heading">
+            <h1>
+                BG Color Changer
+            </h1>
+        </div>
+        <div class="colorRow">
+            <button class="color" style="background-color: blue;" onclick="bgChanger('blue')"><button>
+            <button class="color" style="background-color: green;" onclick="bgChanger('green')"><button>
+            <button class="color" style="background-color: red;" onclick="bgChanger('red')"><button>
+            <button class="color" style="background-color: yellow;" onclick="bgChanger('yellow')"><button>
+        </div>
+        <div class="heading" style="border-radius: 10px; border-color: azure; border-width: 1px;">
+            <p>Choose the Color and tap it to change the background color</p>
+        </div>
+    </div>
+    <script src="bg-changer.js"></script>
+</body>
+</html>
