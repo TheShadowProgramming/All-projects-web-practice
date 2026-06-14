@@ -26,6 +26,7 @@
 - ctlr + tab for switching between tabs of browser
 - ctlr + w for closing the current tab of browser
 - ctlr + k for searching something in the current tab
+- cltr + shift + a for searching through the tabs in the chrome window open right now
 - ctlr + shift + a for searching through the tabs in chrome to get to the tab immediately
 - ctlr + t for firing a new tab in the browser
 - alt + left key for going backwards in the browser and alt + right for going forwards in the browser
