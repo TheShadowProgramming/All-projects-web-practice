@@ -26,6 +26,7 @@
 - ctlr + tab for switching between tabs of browser
 - ctlr + w for closing the current tab of browser
 - ctlr + k for searching something in the current tab
+- ctlr + shift + a for searching through the tabs in chrome to get to the tab immediately
 - ctlr + t for firing a new tab in the browser
 - alt + left key for going backwards in the browser and alt + right for going forwards in the browser
 - yt me full screen ke liye f, numbers dabaane se video ke 10 hisse ho jaate hai and we can get to that specific portion by pressing that number key
